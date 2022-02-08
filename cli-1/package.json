@@ -1,0 +1,25 @@
+{
+  "name": "cli-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "cli-1": "./bin/cli.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.0.1",
+    "shelljs": "^0.8.5"
+  }
+}
